@@ -45,7 +45,7 @@ class Movie
         var_dump($pulpFiction);
         var_dump($pulpFiction -> title, $pulpFiction ->director, $pulpFiction -> plot, $pulpFiction -> release);
 
-        $theShinning = new Movie ('Seven', 'Stanley Kubrick', 'The Shining is set in Colorado in the 1970s. It centres on the Torrance family: husband Jack, wife Wendy, and their five-year-old son, Danny. ... He is informed by the hotel manager that the previous caretaker, Delbert Grady, killed his entire family inside the hotel.', 1980);
+        $theShinning = new Movie ('theShinning', 'Stanley Kubrick', 'The Shining is set in Colorado in the 1970s. It centres on the Torrance family: husband Jack, wife Wendy, and their five-year-old son, Danny. ... He is informed by the hotel manager that the previous caretaker, Delbert Grady, killed his entire family inside the hotel.', 1980);
         var_dump($theShinning);
         var_dump($theShinning -> title, $theShinning ->director, $theShinning -> plot, $theShinning -> release);
         /*
