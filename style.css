@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+#site_header{
+    background-color: lightyellow;
+}
+header h1{
+        text-align: center;
+        padding: 30px;
+    }
+#movie{
+        display: flex;
+        flex-wrap: wrap;
+        
+        border:1px solid black;
+    }

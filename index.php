@@ -21,17 +21,21 @@ $movies =[
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<main id="movies">
-        <?php foreach ($movies as $movie) : ?>
-            <div class="movie">
-                <h1><?= $movie -> title; ?></h1>
-                <span><?= $movie-> director; ?></span>
-                <p><?= $movie -> plot; ?></p>
-                <span><?= $movie-> release; ?></span>
-            </div>
-        <?php endforeach; ?>
+    <header id="site_header">
+        <h1> 🎬 My favourites Movies 🎬</h1>
+    </header>
+    <main id="movies" class="container">
+            <?php foreach ($movies as $movie) : ?>
+                <div class="movie">
+                    <h1><?= $movie -> title; ?></h1>
+                    <span><?= $movie-> director; ?></span>
+                    <p><?= $movie -> plot; ?></p>
+                    <span><?= $movie-> release; ?></span>
+                </div>
+            <?php endforeach; ?>
     </main>
 </body>
 </html>
