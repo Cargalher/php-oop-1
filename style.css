@@ -42,3 +42,7 @@ main{
 img{
         width:264px;
     }
+p{
+        padding: 18px;
+        text-align: left;
+    }
