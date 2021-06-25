@@ -25,7 +25,7 @@ $movies =[
 </head>
 <body>
     <header id="site_header">
-        <h1> 🎬 My favourites Movies 🎬</h1>
+        <h1> 🎬 My favourite Movies 🎬</h1>
     </header>
     <main id="movies">
             <?php foreach ($movies as $movie) : ?>
