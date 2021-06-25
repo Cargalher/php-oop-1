@@ -14,9 +14,27 @@ header h1{
         text-align: center;
         padding: 30px;
     }
-#movie{
-        display: flex;
-        flex-wrap: wrap;
+main{
+    background-color: lightgray;
+}
+#movies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
         
-        border:1px solid black;
+    }
+
+.movie{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    background: lightyellow;
+    padding: 15px;
+    margin: 10px 20px;
+    height: 280px;
+    flex-basis: 391px;
     }

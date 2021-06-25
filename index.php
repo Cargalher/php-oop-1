@@ -27,9 +27,9 @@ $movies =[
     <header id="site_header">
         <h1> 🎬 My favourites Movies 🎬</h1>
     </header>
-    <main id="movies" class="container">
+    <main id="movies">
             <?php foreach ($movies as $movie) : ?>
-                <div class="movie">
+                <div class="movie container">
                     <h1><?= $movie -> title; ?></h1>
                     <span><?= $movie-> director; ?></span>
                     <p><?= $movie -> plot; ?></p>
