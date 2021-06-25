@@ -35,6 +35,10 @@ main{
     background: lightyellow;
     padding: 15px;
     margin: 10px 20px;
-    height: 280px;
-    flex-basis: 391px;
+    height: 600px;
+    flex-basis: 313px;
+}
+    
+img{
+        width:264px;
     }
